@@ -3,7 +3,7 @@ org 100h
 
 mov al, 13h
 int 10h
-mov di, 3200
+mov di, 0 
 mov si, image+80h
 call Draw_PCX
 mov ah, 00h
